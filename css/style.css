@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Comfortaa:300,400,700|Farsan|Josefin+Slab:100,300,400,600,700|Shadows+Into+Light');
+
+/*===============UNIVERSALS=================*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-background {
+    background-color: #e40007;
+    
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.half {
+    width: 35%;
+}
+
+.p1 {
+    text-align: left
+}
+
+.img-bottom {
+    float: left;
+    clear: left;
+    padding-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/*===========HEADER SECTION===============*/
+
+header {
+    padding: 25px 20px;
+    height: 9.1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+
+span h4 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0 15px;
+}
+
+main {
+    display: inline-block;
+    height: 100px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: #000;
+}
+
+header>ul>li {
+    border-radius: 15px 15px 0 0;
+    background-color: #fff;
+    padding: 17.3px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#tab_position {
+    margin-top: 2%;
+}
+
+.tab-hover:hover {
+    background-color: #999999;
+    padding-bottom: 10%;
+    position: position;
+}
+
+/*===========HERO SECTION===============*/
+
+#SGR {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+    width: 26.2%;
+    text-shadow: 3px 3px rgb(90, 90, 90);
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#hero {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/guitar-background.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #e40007;
+    margin-top: 7.2%;
+    /*position: relative;*/
+}
+
+#audio_file {
+    margin-bottom: .4%;
+    margin-left: 55.2%;
+}
+
+#video_file {
+    margin-bottom: .4%;
+}
+
+#hero>h1 {
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 37%;
+    font-family: 'Comfortaa', cursive;
+}
+
+/*===========ASIDE============*/
+
+aside {
+    width: 30%;
+    border-right: 2px solid #fff;
+    background-color: rgb(75, 40, 40);
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+#blog_links {
+    padding-left: 0;
+}
+
+.blog-link {
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0;
+}
+
+.blog-link>h5>a {
+    font-size: 18px;
+}
+
+.blog-link:hover {
+    background-color: #e40007;
+}
+
+aside, main {
+    height: 800px;
+}
+
+/*=============MAIN SECTION==============*/
+
+main {
+    width: 67.2%;
+    background-color: rgb(70, 70, 70);
+    padding: 0 10px;
+}
+
+main>h2, main>h4 {
+    text-align: center;
+}
+
+.main-title {
+    text-align: center;
+}
+
+#main_wrapper {
+    margin-bottom: 50px;
+}
+
+.link1 {
+    color: #e40007;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.link1:hover {
+    background-color: #e40007;
+    color: #fff;
+}
+
+#main_content_paragraph {
+    display: inline-block;
+    font-family: 'Josefin Slab', serif;
+}
+
+/*=============FOOTER SECTION==============*/
+
+footer {
+    height: 150px;
+    clear: both;
+    background-color: rgb(170, 20, 20);
+    border-top: 6px solid #000;
+    text-align: center;
+}
+
+#social_media_wrapper {
+    margin: 0 auto;
+}
+
+a .fa {
+    color: #fff;
+    padding: 20px;
+}
+
+.copyright {
+    color: #fff;
+}
+
+
+
+/* add padding between icons, center align icons, use entities */
